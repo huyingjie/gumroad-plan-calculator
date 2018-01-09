@@ -1,10 +1,14 @@
 <h1 align="center"> Gumroad Plan Calculator </h1>
-<div align="center">With <a href="http://gumroadcalculator.yingjiehu.com">Gumroad Plan Calculator</a>, you can choose Gumroad plan more wisely and earn more money 💵 💵 </div>
-<br>
+
 
 <div align="center" style="padding-bottom:10px">
 	<a href="http://gumroadcalculator.yingjiehu.com"><img src="https://img.shields.io/badge/Gumroad-Calculator-brightgreen.svg"></a>
 <div>
+
+<br>
+
+<div align="center">With <a href="http://gumroadcalculator.yingjiehu.com">Gumroad Plan Calculator</a>, you can choose Gumroad plan more wisely and earn more money 💵 💵 </div>
+
 <br>
 
 <div align="center">
