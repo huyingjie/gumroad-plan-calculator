@@ -1,0 +1,80 @@
+body {
+  margin: auto;
+  max-width: 600px;
+  background-color: LightSalmon;
+  color: white;
+  padding-top: 40px;
+}
+
+.gumroad {
+  width:50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+#calculateForm {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 40px;
+}
+
+#free {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 40px;
+}
+
+#premium {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 40px;
+}
+
+#submitButton {
+  background-color: white;
+  border: 1px solid LightSalmon;
+  border-radius: 40px;
+  color: LightSalmon;
+  margin-top: 20px;
+  float: right;
+  font-size: 16px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.inputNum{
+  margin:5px;
+  border-radius: 5px;
+  border: 1px solid LightSalmon;
+  width: 100px;
+  padding-left: 20px;
+  color: LightSalmon;
+}
+
+#results{
+  display:none;
+}
+
+footer{
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  display:block;
+}
+
+
+div a {
+  color: LightSalmon;
+  background-color: white;
+  padding: 1px 5px 1px 5px;
+}
+div a:hover {
+  color: LightSalmon;
+}
