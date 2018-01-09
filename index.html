@@ -17,15 +17,26 @@
   <link rel="stylesheet" href="style/main.css">
   <script src="script/main.js"></script>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41260713-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-41260713-1');
+</script>
+
+
 </head>
 <a href="https://github.com/huyingjie/gumroad-plan-calculator"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
 
 <body>
   <div align="center">
-  <h1><img src="img/gumroad.png" class="gumroad">Gumroad Calculator<img src="img/gumroad.png" class="gumroad"></h1>
-  <p>Which Gumroad plan is suitable for you?</p>
-  <sub>Reference: <a href="https://help.gumroad.com/billing-tiers">Gumroad website</a></sub>
-</div>
+    <h1><img src="img/gumroad.png" class="gumroad">Gumroad Calculator<img src="img/gumroad.png" class="gumroad"></h1>
+    <p>Which Gumroad plan is suitable for you?</p>
+    <sub>Reference: <a href="https://help.gumroad.com/billing-tiers">Gumroad website</a></sub>
+  </div>
 
   <div id="calculateForm">
     <form name="gumroadForm">
@@ -39,30 +50,30 @@
 
   <div id="results">
     <div align="center">
-      <p>Sales Total: $<span id="total"> <span></p>
-        <h2><span id="betterPlan"></span> is suitable for you. <br>
-          You will make $<span id="diff"></span> more.</h2>
-        </p>
-      </div>
+      <p>Sales Total: $<span id="total"> </span></p>
+      <h2><span id="betterPlan"></span> is suitable for you. <br>
+        You will make $<span id="diff"></span> more.</h2>
+      </p>
+    </div>
+    
+    <div id="free">
+      <h3>Free Gumroad</h3>
+      <p>Fees: $<span id="feeForFree"></span></p>
+      <p>Profit: $<span id="profitFree"></span></p>
+    </div>
 
-      <div id="free">
-        <h3>Free Gumroad</h3>
-        <p>Fees: $<span id="feeForFree"></span></p>
-        <p>Profit: $<span id="profitFree"></span></p>
-      </div>
-
-      <div id="premium">
-        <h3>Gumroad Premium</h3>
-        <p>Fees: $<span id="feeForPremium"></span></p>
-        <p>Profit: $<span id="profitPremium"><span></p>
-        </div>
-      </div>
-    <footer>
-      <div>
+    <div id="premium">
+      <h3>Gumroad Premium</h3>
+      <p>Fees: $<span id="feeForPremium"></span></p>
+      <p>Profit: $<span id="profitPremium"></span></p>
+    </div>
+  </div>
+  <footer>
+    <div>
       Written and Coded By <a href="http://yingjiehu.com" target="_blank" class="icon-color">Yingjie Hu</a> with <span class="content-color" style="color:red"><i class="fas fa-heart"></i></span><br>
       <a href="https://www.patreon.com/yingjie">Donate</a>
     </div>
-    </footer>
+  </footer>
 
 
-  </body>
+</body>
