@@ -2,17 +2,17 @@
 
 
 <div align="center" style="padding-bottom:10px">
-	<a href="http://gumroadcalculator.yingjiehu.com"><img src="https://img.shields.io/badge/Gumroad-Calculator-brightgreen.svg"></a>
+	<a href="http://gumroadplancalculator.yingjiehu.com"><img src="https://img.shields.io/badge/Gumroad-Calculator-brightgreen.svg"></a>
 <div>
 
 <br>
 
-<div align="center">With <a href="http://gumroadcalculator.yingjiehu.com">Gumroad Plan Calculator</a>, you can choose Gumroad plan more wisely and earn more money 💵 💵 </div>
+<div align="center">With <a href="http://gumroadplancalculator.yingjiehu.com">Gumroad Plan Calculator</a>, you can choose Gumroad plan more wisely and earn more money 💵 💵 </div>
 
 <br>
 
 <div align="center">
-	<a href="http://gumroadcalculator.yingjiehu.com">Website</a>&nbsp;&nbsp;&nbsp;
+	<a href="http://gumroadplancalculator.yingjiehu.com">Website</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/huyingjie/gumroad-plan-calculator/graphs/contributors">Contributors</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://www.patreon.com/yingjie" target="_blank">Donation</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://www.patreon.com/yingjie" target="_blank">Become a Sponsor</a>
